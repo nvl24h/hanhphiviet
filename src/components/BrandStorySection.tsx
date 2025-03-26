@@ -15,7 +15,7 @@ const BrandStorySection: React.FC<BrandStorySectionProps> = ({
     title = "Di Sản Tinh Hoa Của Chúng Tôi",
     subtitle = "Truyền Thống & Chất Lượng",
     description = "Được thành lập tại trái tim của Việt Nam, Hành Phi Việt đã gìn giữ và phát triển nghệ thuật làm hành phi cao cấp qua nhiều thế hệ. Công thức gia truyền bí mật của chúng tôi được truyền lại qua từng năm tháng, lưu giữ trọn vẹn hương vị đậm đà và độ giòn hoàn hảo, giúp sản phẩm trở nên khác biệt. Chúng tôi tuyển chọn những củ hành tốt nhất, trồng trên những vùng đất màu mỡ của nông thôn Việt Nam, và chế biến theo phương pháp truyền thống kết hợp với tiêu chuẩn chất lượng hiện đại. Mỗi mẻ hành phi đều được làm thủ công với sự tỉ mỉ, đảm bảo chất lượng đồng nhất và hương vị tuyệt hảo, góp phần nâng tầm mọi món ăn.",
-    imageUrl = "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=800&q=80",
+    imageUrl = "../../public/hanhphiviet.jpg",
     imageAlt = "Traditional Vietnamese cooking with fried shallots",
     ctaText = "Khám Phá Fanpage Của Chúng Tôi",
     onCtaClick = () => console.log("CTA clicked"),

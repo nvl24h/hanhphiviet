@@ -17,7 +17,7 @@ const HeroSection = ({
     ctaText = "Mua Ngay",
     onCtaClick = () => window.open("https://shopee.vn/hanhphiviet", "_blank"),
     backgroundImage = "linear-gradient(to right, #4c1d95, #7e22ce)",
-    productImage = "https://images.unsplash.com/photo-1604152135912-04a022e23696?w=800&q=80",
+    productImage = "../../public/hanhphiviet.jpg",
 }: HeroSectionProps) => {
     return (
         <section

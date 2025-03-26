@@ -65,7 +65,7 @@ const ProductFeaturesSection = ({
                     <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
                 </svg>
             ),
-            imageUrl: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=600&q=80",
+            imageUrl: "../../public/hanh-cu-kinh-mon.jpg",
         },
         {
             title: "Hương vị đích thực",
@@ -88,7 +88,7 @@ const ProductFeaturesSection = ({
                     <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
                 </svg>
             ),
-            imageUrl: "https://images.unsplash.com/photo-1604152135912-04a022e23696?w=600&q=80",
+            imageUrl: "../../public/hươngvi.jpg",
         },
         {
             title: "Sử Dụng Đa Dạng",
@@ -110,7 +110,7 @@ const ProductFeaturesSection = ({
                     <line x1="6" x2="18" y1="17" y2="17" />
                 </svg>
             ),
-            imageUrl: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
+            imageUrl: "../../public/hành phi nhiều món ăn.jpg",
         },
         {
             title: "Không chất bảo quản",
@@ -132,7 +132,7 @@ const ProductFeaturesSection = ({
                     <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
                 </svg>
             ),
-            imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?w=600&q=80",
+            imageUrl: "../../public/khong chat bao quan.jpg",
         },
     ],
 }: ProductFeaturesSectionProps) => {
