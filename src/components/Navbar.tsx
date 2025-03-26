@@ -37,13 +37,13 @@ const Navbar = ({ onScrollToSection = () => {} }: NavbarProps) => {
         <nav
             className={cn(
                 "fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-purple-50",
-                isScrolled ? "py-2 shadow-md bg-white/90 backdrop-blur-sm" : "py-4 bg-transparent"
+                isScrolled ? "py-2 shadow-md bg-black/70 backdrop-blur-sm" : "py-4 bg-transparent"
             )}
         >
             <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center">
-                    <h1 className="text-2xl font-bold text-black tracking-tight">HÀNH PHI VIỆT</h1>
+                    <h1 className="text-2xl font-bold text-white tracking-tight">HÀNH PHI VIỆT</h1>
                 </div>
 
                 {/* Desktop Navigation */}
@@ -53,7 +53,7 @@ const Navbar = ({ onScrollToSection = () => {} }: NavbarProps) => {
                             key={link.section}
                             onClick={() => handleNavClick(link.section)}
                             className={cn(
-                                "text-purple-700 hover:text-purple-900 font-medium transition-colors",
+                                "text-purple-700 hover:text-purple-900 font-medium transition-colors text-white",
                                 "relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0",
                                 "after:bg-purple-600 after:transition-all after:duration-300 hover:after:w-full"
                             )}

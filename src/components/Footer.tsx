@@ -30,7 +30,7 @@ const Footer = ({
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="space-y-4">
                     <h3 className="text-2xl font-bold">{companyName}</h3>
-                    <p className="text-purple-200 max-w-xs">Premium quality fried shallots, crafted with tradition and excellence.</p>
+                    <p className="text-purple-200 max-w-xs">Hành Phi Việt - Nông Sản Việt Nam</p>
                     <div className="flex space-x-4 pt-2">
                         <a
                             href={socialLinks.facebook}
@@ -60,7 +60,7 @@ const Footer = ({
                 </div>
 
                 <div className="space-y-4">
-                    <h3 className="text-xl font-semibold">Contact Us</h3>
+                    <h3 className="text-xl font-semibold">Liên hệ chúng tôi</h3>
                     <ul className="space-y-3 text-purple-200">
                         <li className="flex items-center gap-2">
                             <Mail size={16} />
@@ -85,27 +85,32 @@ const Footer = ({
                     <h3 className="text-xl font-semibold">Liên kết nhanh</h3>
                     <ul className="space-y-2 text-purple-200">
                         <li>
-                            <a href="#" className="hover:text-white transition-colors">
-                                Home
+                            <a href="http://hanhphiviet.com/" className="hover:text-white transition-colors">
+                                Website
                             </a>
                         </li>
                         <li>
-                            <a href="#brand-story" className="hover:text-white transition-colors">
-                                Our Story
+                            <a href="https://shopee.vn/hanhphiviet" className="hover:text-white transition-colors">
+                                Shopee
                             </a>
                         </li>
                         <li>
-                            <a href="#product-features" className="hover:text-white transition-colors">
-                                Products
+                            <a href="https://www.facebook.com/hanhphiviet" className="hover:text-white transition-colors">
+                                Fanpage
                             </a>
                         </li>
                         <li>
-                            <a href="#testimonials" className="hover:text-white transition-colors">
-                                Testimonials
+                            <a href="https://zalo.me/0836280977" className="hover:text-white transition-colors">
+                                Zalo Chat
                             </a>
                         </li>
                     </ul>
-                    <Button className="mt-4 bg-white text-purple-900 hover:bg-purple-100">Order Now</Button>
+                    <Button
+                        className="mt-4 bg-white text-purple-900 hover:bg-purple-100"
+                        onClick={() => window.open("https://shopee.vn/hanhphiviet")}
+                    >
+                        Order Now
+                    </Button>
                 </div>
             </div>
 
