@@ -9,8 +9,8 @@ interface FooterProps {
     address?: string;
     socialLinks?: {
         facebook?: string;
-        instagram?: string;
-        twitter?: string;
+        Shopee?: string;
+        Zalo?: string;
     };
 }
 
@@ -41,7 +41,7 @@ const Footer = ({
                             <Facebook size={20} />
                         </a>
                         <a
-                            href={socialLinks.instagram}
+                            href={socialLinks.Shopee}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-purple-300 transition-colors"
@@ -49,7 +49,7 @@ const Footer = ({
                             <ShoppingBag size={20} />
                         </a>
                         <a
-                            href={socialLinks.twitter}
+                            href={socialLinks.Zalo}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-purple-300 transition-colors"
