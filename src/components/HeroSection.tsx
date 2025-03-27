@@ -32,7 +32,7 @@ const HeroSection = ({
 
             <div className="container mx-auto px-4 z-10 flex flex-col md:flex-row items-center justify-between">
                 {/* Text content */}
-                <div className="md:w-1/2 text-white space-y-6 mb-10 md:mb-0">
+                <div className="md:w-1/2 text-white space-y-6 mb-10 md:mb-0 pt-20">
                     <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                         <span className="block">Hành Phi Việt</span>
                         <span className="block mt-2">{title}</span>

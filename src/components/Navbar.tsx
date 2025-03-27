@@ -37,7 +37,7 @@ const Navbar = ({ onScrollToSection = () => {} }: NavbarProps) => {
         <nav
             className={cn(
                 "fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-purple-50",
-                isScrolled ? "py-2 shadow-md bg-black/70 backdrop-blur-sm" : "py-4 bg-transparent"
+                isScrolled ? "py-2 shadow-md bg-orange-500/70 backdrop-blur-sm" : "py-4 bg-transparent"
             )}
         >
             <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
@@ -73,7 +73,7 @@ const Navbar = ({ onScrollToSection = () => {} }: NavbarProps) => {
                 </Button>
 
                 {/* Mobile Menu Button */}
-                <button className="md:hidden text-purple-800" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+                <button className="md:hidden text-white" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
                     {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
                 </button>
             </div>
